@@ -1,0 +1,327 @@
+.about-main-wrapper {
+    height: 969px;
+    position: relative;
+    overflow: hidden;
+    z-index: 4;
+
+    @media(max-width: 1440px) {
+        margin-bottom: 0;
+    }
+
+    @media(max-width: 600px) {
+        height: 100vh;
+        min-height: 700px;
+    }
+
+    &::before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+        background: #2A263C;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+
+
+
+    // About Header
+    .about-header {
+        border: 1px solid transparent !important;
+
+        .about-header-top {
+            padding-top: 16px;
+            padding-bottom: 20px;
+
+            .about-navbar {
+                .nav-item {
+                    padding: 0 9px;
+
+                    a {
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+            .about-navbar-text {
+                margin-left: 26px;
+
+                a {
+                    color: #FFFFFF;
+                    border-color: #FFFFFF;
+
+                    &:hover {
+                        border-color: #D03A3B;
+                    }
+                }
+
+            }
+        }
+    }
+
+    // About Header
+
+
+
+
+
+    // About-us-wrapper
+    .about-us-wrapper {
+        margin-top: 143px;
+
+        .about-us-inner {
+            .about-top-wrapper {
+                display: flex;
+                flex-direction: row;
+                // align-items: center;
+                justify-content: space-between;
+                width: 100%;
+
+                .about-top-left {
+                    width: 41%;
+
+                    h6 {
+                        color: #17CD25;
+                        background: rgba(23, 205, 37, 0.1);
+                        max-width: 212px;
+                        font-family: $kfont;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 32px;
+                        padding: 12px;
+                        text-align: center;
+                        margin-bottom: 15px;
+                    }
+
+                    h2 {
+                        color: #FFFFFF;
+                        font-size: 48px;
+                        font-weight: bold;
+                        line-height: 164.8%;
+                        font-family: $kfont;
+                        margin-bottom: 35px;
+
+                        span {
+                            color: rgba(255, 0, 0, .58);
+                        }
+                    }
+
+                    p {
+                        color: #838291;
+                        font-size: 24px;
+                        font-weight: normal;
+                        font-family: $kfont;
+                        font-style: normal;
+                    }
+                }
+
+                .about-top-right {
+                    width: 59%;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    // About-us-wrapper
+}
+
+// Ceo Section 
+.ceo-section{
+    position: relative;
+    height: 969px;
+    background-image: url("../assets/images/Rectangle 25.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .ceo-inner{
+        display: flex;
+        flex-direction: row;
+       
+        .ceo-inner-left{
+            padding-top: 170px;
+            .ceo-top-para{
+                color: #A5250A;
+                font-size: 18px;
+                line-height: 170.8%;
+                font-weight: normal;
+                font-family: $kfont;
+                margin-bottom: 30px;
+            }
+            h2{
+                color: #2A263C;
+                font-size: 48px;
+                line-height: 70px;
+                font-weight: bold;
+                font-style: normal;
+                font-family: $kfont;
+                margin-bottom: 35px;
+                span{
+                    color: #A5250A;
+                }
+            }
+            .ceo-para{
+                color: #838291;
+                font-size: 18px;
+                font-weight: normal;
+                line-height: 32px;
+                font-family: $kfont;
+                font-style: normal;
+                max-width: 460px;
+            }
+        }
+        .ceo-inner-right{
+            img{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                content: "";
+            }
+        }
+    }
+}
+// Ceo Section 
+
+// Corporate Section 
+.corporate-section{
+    height: 969px;
+    padding: 180px 0 125px 0;
+    background: #2A263C;
+    .corporate-inner{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .corporate-left{
+
+            img{}
+        }
+        .corporate-right{
+            h6{
+                color: #17CD25;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 32px;
+                font-family: $kfont;
+                background: rgba(23, 205, 37, 0.1);
+                margin-bottom: 15px;
+                max-width: 286px;
+                padding: 12px;
+                text-align: center;
+            }
+            h2{
+                color: #FFFFFF;
+                font-size: 64px;
+                line-height: 80px;
+                font-family: $kfont;
+                font-weight: bold;
+                margin-bottom: 30px;
+            }
+            p{
+                color: rgba(255, 255, 255, 0.6);
+                font-size: 18px;
+                line-height: 32px;
+                font-weight: normal;
+                font-style: normal;
+                font-family: $kfont;
+                margin-bottom: 40px;
+            }
+            .corporate-right-inner{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 20px;
+                .corporate-box{
+                    display: flex;
+                    flex-direction: row;
+                    width: 50%;
+                    .corporate-box-left{
+                        margin-right: 15px;
+                        img{}
+                    }
+                    .corporate-box-right{
+                        h3{
+                            color: #FFFFFF;
+                            line-height: 32px;
+                            font-size: 24px;
+                            font-weight: 500;
+                            font-family: $kfont;
+                            font-style: normal;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// Corporate Section 
+
+// Keep In Touch 
+.keepin-touch-wrapper {
+    height: 969px;
+    padding: 180px 0 150px 0;
+    .keepin-touch-inner {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+       
+        .keepin-touch-left {
+            h6 {
+                color: #575467;
+                line-height: 32px;
+                font-size: 22px;
+                font-weight: 500;
+                font-family: $kfont;
+                margin-bottom: 15px;
+            }
+
+            h2 {
+                color: #2A263C;
+                font-size: 48px;
+                line-height: 70px;
+                font-weight: bold;
+                font-family: $kfont;
+                margin-bottom: 30px;
+            }
+
+            p {
+                color: #838291;
+                font-size: 18px;
+                line-height: 32px;
+                font-weight: normal;
+                font-family: $kfont;
+                margin-bottom: 70px;
+            }
+
+            .keep-in-touch-btn {
+                a {
+                    text-decoration: none;
+                    color: #FFFFFF;
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 35px;
+                    font-family: $kfont;
+                    background: linear-gradient(96.04deg, #A80304 -5.7%, #CF393A 100.84%);
+                    box-shadow: 0px 31px 28px -14px rgba(255, 0, 0, 0.3);
+                    border-radius: 8px;
+                    padding: 18px 48px;
+                }
+            }
+        }
+    }
+}
+
+// Keep In Touch 
+
+
+
+.nav-active {
+    color: #D03A3B !important;
+}

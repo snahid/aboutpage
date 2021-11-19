@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>About Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      content="Premium Multipurpose Admin & Dashboard Template"
+      name="description"
+    />
+    <meta content="Themesbrand" name="author" />
+    <!-- FavIcon-->
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon/favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fonts  -->
+    <!-- Bootstrap style-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap  -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--AOS css-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- FontAwesome style-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- font  -->
+    <!--Owl Carouse css-->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+
+    <!--AOS css-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--Animate css-->
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <!-- Map  -->
+    <link rel="stylesheet" href="./css/map.css" />
+    <!-- Map  -->
+    <!-- @yield('css') -->
+    <!-- Custom Style-->
+    <link rel="stylesheet" href="./css/checkbox.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <!-- <meta name="csrf-token" content="{{ csrf_token() }}" /> -->
+  </head>
+
+  <body>
+    <div class="about-main-wrapper">
+      <section>
+        <div class="news-header about-header">
+          <div class="n-container">
+            <div class="header-top about-header-top">
+              <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="/"
+                  ><img src="./assets/images/abouttoplogo.svg" alt=""
+                /></a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarText"
+                  aria-controls="navbarText"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav ml-auto about-navbar">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link toplink"
+                        href="{{ url('consultmain') }}"
+                        >컨설팅 중인 기업</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link toplink" href="{{ url('newsroom') }}"
+                        >뉴스룸</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link toplink toplinkactive"
+                        href="{{ url('about-us') }}"
+                        >회사소개</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link toplink" href="{{ url('service') }}"
+                        >서비스</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link toplink" href="{{ url('blog') }}"
+                        >블로그</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link toplink" href="{{ url('contact-us') }}"
+                        >상담문의</a
+                      >
+                    </li>
+                  </ul>
+                  <span class="navbar-text about-navbar-text">
+                    <a href="tel:832 939 8280"
+                      ><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
+                      02-529-1001</a
+                    >
+                  </span>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile mune for news  -->
+        <div class="news-mobile-wrapper">
+          <div class="mobile-header-menu" id="mobile-header">
+            <div class="left">
+              <a href="/"
+                ><img src="./assets/images/mobilelogo.svg" alt=""
+              /></a>
+            </div>
+            <div class="right">
+              <div class="myicon">
+                <i
+                  class="fa fa-ellipsis-h menu-dots news-menu-dots"
+                  id="menu-dots"
+                  aria-hidden="true"
+                ></i>
+                <span class="cross news-cross"> &times; </span>
+              </div>
+            </div>
+          </div>
+          <div class="mymobile-menu">
+            <ul>
+              <li><a href="{{ url('consultmain') }}">컨설팅 중인 기업</a></li>
+              <li><a href="{{ url('newsroom') }}">뉴스룸</a></li>
+              <li><a href="{{ url('about-us') }}">회사소개</a></li>
+              <li><a href="{{ url('service') }}">서비스</a></li>
+              <li><a href="{{ url('blog') }}">블로그</a></li>
+              <li><a href="{{ url('contact-us') }}">상담문의</a></li>
+            </ul>
+            <div class="mphone">
+              <a class="mobile-phone" href="tel:832 939 8280"
+                ><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
+                02-529-1001</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Mobile mune for news  -->
+      </section>
+
+      <!-- section  -->
+      <!-- About us Section  -->
+      <div class="about-us-wrapper">
+        <div class="n-container">
+          <div class="about-us-inner">
+            <div class="about-top-wrapper">
+              <div class="about-top-left">
+                <h6>no.1 consulting group</h6>
+                <h2>
+                  A winning game begins<br />
+                  just by meeting<br />
+                  <span>Seven Stock.</span>
+                </h2>
+                <p>
+                  Sevenstock bring consulting companies to<br />
+                  another world
+                </p>
+              </div>
+              <div class="about-top-right">
+                <img src="./assets/images/abouttopimage.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About us Section  -->
+      <!-- section  -->
+    </div>
+
+    <!-- Ceo Section  -->
+    <div class="ceo-section">
+      <div class="n-container">
+        <div class="ceo-inner">
+          <div class="ceo-inner-left">
+            <p class="ceo-top-para">“A pioneer who revitalized the unlisted stock market for<br/> the first time in Korea”</p>
+            <h2>There is<br/> 
+             <span> Song Young-bong</span><br/>
+              CEO of Seven Stock<br/> Holdings.</h2>
+              <p class="ceo-para">Based on 20 years of know-how, we discover and verify companies with high future potential, leading to successful investment attraction with higher value through consulting and corporate value management through Seven Stock's unique strategy.</p>
+          </div>
+          <div class="ceo-inner-right">
+            <img src="./assets/images/aboutmiddleimage.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Ceo Section  -->
+
+
+    <!-- Corporate Section  -->
+    <div class="corporate-section">
+      <div class="n-container">
+        <div class="corporate-inner">
+          <div class="corporate-left">
+            <img src="./assets/images/corporate.png" alt="">
+          </div>
+          <div class="corporate-right">
+            <h6>Enterprise Value Improvement</h6>
+            <h2>We create<br/> corporate value</h2>
+            <p>Based on 20 years of know-how, we discover and verify companies with<br/> high future potential, leading to successful investment attraction with<br/> higher value through consulting and corporate value management<br/> through Seven Stock's unique strategy.</p>
+            <div class="corporate-right-inner">
+              <div class="corporate-box">
+                <div class="corporate-box-left">
+                  <img src="./assets/images/10-awareness.png" alt="">
+                </div>
+                <div class="corporate-box-right">
+                  <h3>PR, Marketing,<br/> Sales</h3>
+                </div>
+              </div>
+              <div class="corporate-box">
+                <div class="corporate-box-left">
+                  <img src="./assets/images/investment 2.png" alt="">
+                </div>
+                <div class="corporate-box-right">
+                  <h3>Investment<br/> Attraction</h3>
+                </div>
+              </div>
+            </div>
+            <div class="corporate-right-inner">
+              <div class="corporate-box">
+                <div class="corporate-box-left">
+                  <img src="./assets/images/project 1.png" alt="">
+                </div>
+                <div class="corporate-box-right">
+                  <h3>Issuance of<br/> new shares</h3>
+                </div>
+              </div>
+              <div class="corporate-box">
+                <div class="corporate-box-left">
+                  <img src="./assets/images/warehouse 1.png" alt="">
+                </div>
+                <div class="corporate-box-right">
+                  <h3>Old Stock Sale</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Corporate Section  -->
+
+    <!-- Keep In Touch  -->
+    <div class="keepin-touch-wrapper">
+      <div class="n-container">
+        <div class="keepin-touch-inner">
+          <div class="keepin-touch-left">
+            <h6>
+              A company specializing in discovering<br />
+              undervalued stocks
+            </h6>
+            <h2>SEVEN STOCK HOLDINGS</h2>
+            <p>
+              Based on 20 years of know-how, we discover and verify companies
+              with<br />
+              high future potential, leading to successful investment attraction
+              with<br />
+              higher value through consulting and corporate value management<br />
+              through Seven Stock's unique strategy.
+            </p>
+
+            <div class="keep-in-touch-btn">
+              <a href="#">Keep In Touch</a>
+            </div>
+          </div>
+          <div class="keepin-touch-right">
+            <img src="./assets/images/aboutbottomimage.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Keep In Touch  -->
+
+    <!-- Footer  -->
+
+    <div class="myfooter">
+      <div class="mycontainer">
+        <div class="footer-inner">
+          <div class="left-section">
+            <div class="logo">
+              <a href="/"
+                ><img src="./assets/images/logo-white.svg" alt=""
+              /></a>
+            </div>
+            <p class="top">
+              상장예정기업 전문 컨설팅 기업<br />
+              (주)세븐스톡 홀딩스
+            </p>
+            <p class="bottom">
+              대표자 : 송영봉 | 사업자 등록번호 : 109-86-46874<br />통신판매업신고번호
+              : 제2016 서울 강남 0411호
+            </p>
+            <span
+              ><img src="./assets/images/phonefooter.svg" alt="" />&nbsp;
+              <span id="footerphone">02-529-1001</span></span
+            >
+            <div class="popupphone" id="popupphone">
+              <span class="fpopuptext" id="fpopuptext">copied</span>
+            </div>
+          </div>
+          <div class="right-section">
+            <div class="left">
+              <h2>상담이 필요하신가요?</h2>
+              <p>
+                성함과 핸드폰 번호를 남겨주시면<br />
+                빠른 시일 내에 연락 드리도록 하겠습니다.
+              </p>
+            </div>
+            <div class="right">
+              <form
+                method="POST"
+                class="needs-validation"
+                id="mini-contact-form"
+                novalidate
+              >
+                <div id="footer-investor">
+                  <input
+                    class="form-control n-input"
+                    type="text"
+                    placeholder="성함"
+                    name="name"
+                    required
+                    id="name"
+                  />
+                  <input
+                    class="form-control n-input"
+                    type="text"
+                    placeholder="핸드폰 번호"
+                    id="phone-number"
+                    name="phone_number"
+                    required
+                  />
+                </div>
+                <div id="footer-company">
+                  <a href="{{ url('contact-us') }}">상담문의로 이동</a>
+                  <p>*클릭하시면 '상담문의'로 이동합니다.</p>
+                </div>
+                <div class="form-box">
+                  <label id="footer-left-radio">
+                    <input
+                      type="radio"
+                      name="inquiry_type"
+                      value="Investor"
+                      checked
+                    />
+                    <div class="circle"></div>
+                    <span>투자자</span>
+                  </label>
+                  <label class="right-radio" id="footer-right-radio">
+                    <input type="radio" name="inquiry_type" value="Company" />
+                    <div class="circle"></div>
+                    <span>기업</span>
+                  </label>
+                </div>
+                <div class="submit-wrapper">
+                  <button
+                    type="submit"
+                    id="footer-submitbtn"
+                    class="submit-btn"
+                  >
+                    문의하기
+                  </button>
+                  <div class="sending-mini-inquiry" style="opacity: 0">
+                    <i class="fas fa-cog fa-spin"></i> Sending inquiry
+                  </div>
+                  <div class="inquiry-mini-sent" style="opacity: 0">
+                    <i class="fas fa-check"></i> Inquiry sent
+                  </div>
+                </div>
+              </form>
+
+              <!-- 투자자 -->
+              <!-- 기업 -->
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom copyright-border">
+          <div class="left">
+            <ul>
+              <li><a href="#" class="white-16-100">이용약관</a></li>
+              <li>
+                <a href="#" class="white-16-100">개인정보 취급방식</a>
+              </li>
+              <li><a href="#" class="white-16-100">회사소개서</a></li>
+            </ul>
+          </div>
+
+          <div class="right">
+            <p class="white-16-100">
+              Copyright © 2021 Sevenstock Holdings Inc. All rights are reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Back to top  -->
+    <button onclick="topFunction()" id="toTopBtn" title="Go to top">
+      <img src="./assets/images/fast-forward.svg" alt="Arrow up" />
+    </button>
+    <!-- Back to top  -->
+
+    <!-- Jquery Js-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap Js-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Splide   -->
+    <!-- counter up  -->
+    <script src="./js/jquery.counterup.min.js"></script>
+    <script src="./js/jquery.waypoints.min.js"></script>
+    <!-- counter up  -->
+
+    <!-- <script src="{{ asset('website/js/bootstrap.min.js') }}"></script> -->
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!--AOS Js-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Owl Carouse js-->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom Js-->
+    <script src="./js/custom.js"></script>
+    <script>
+      // Footer phone copy
+      var fphone = document.getElementById("footerphone");
+      var fpopuptext = document.getElementById("fpopuptext");
+      fphone.addEventListener("click", () => {
+        fpopuptext.classList.add("popactive");
+        copyToclipboard();
+      });
+      fpopuptext.addEventListener("animationend", () => {
+        fpopuptext.classList.remove("popactive");
+      });
+
+      function copyToclipboard() {
+        const textrea = document.createElement("textarea");
+        textrea.setAttribute("readonly", "");
+        textrea.style.position = "absolute";
+        textrea.value = fphone.innerText;
+        document.body.appendChild(textrea);
+        textrea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textrea);
+      }
+      // Footer phone copy
+    </script>
+  </body>
+</html>
