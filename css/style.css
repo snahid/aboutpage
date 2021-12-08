@@ -126,7 +126,7 @@
 .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h6 {
   color: #17CD25;
   background: rgba(23, 205, 37, 0.1);
-  max-width: 212px;
+  max-width: 265px;
   font-family: "Noto Sans KR", sans-serif;
   font-size: 18px;
   font-weight: 500;
@@ -143,7 +143,7 @@
 }
 .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 {
   color: #FFFFFF;
-  font-size: 48px;
+  font-size: 44px;
   font-weight: bold;
   line-height: 164.8%;
   font-family: "Noto Sans KR", sans-serif;
@@ -151,50 +151,93 @@
 }
 @media (max-width: 1280px) {
   .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 {
-    font-size: 45px;
+    font-size: 41px;
     margin-bottom: 25px;
   }
 }
-@media (max-width: 1152px) {
+@media (max-width: 1183px) {
   .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 {
     font-size: 40px;
     margin-bottom: 15px;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1154px) {
+  .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 {
+    font-size: 39px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 1152px) {
+  .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 {
+    font-size: 37px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 1068px) {
   .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 {
     font-size: 36px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 1068px) {
+  .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 1039px) {
+  .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 1024px) {
+  .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 923px) {
+  .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 866px) {
+  .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 {
+    font-size: 28px;
     margin-bottom: 15px;
   }
 }
 @media (max-width: 800px) {
   .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 {
     line-height: 145%;
+    font-size: 35px;
   }
 }
-@media (max-width: 425px) {
-  .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 {
-    font-size: 34px;
-  }
-}
-@media (max-width: 414px) {
+@media (max-width: 450px) {
   .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 {
     font-size: 32px;
   }
 }
-@media (max-width: 380px) {
-  .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 {
-    font-size: 30px;
-  }
-}
-@media (max-width: 356px) {
+@media (max-width: 414px) {
   .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 {
     font-size: 28px;
   }
 }
-@media (max-width: 332px) {
+@media (max-width: 365px) {
   .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 {
     font-size: 26px;
+  }
+}
+@media (max-width: 356px) {
+  .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 332px) {
+  .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 {
+    font-size: 24px;
   }
 }
 .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 span {
@@ -352,6 +395,14 @@
   font-weight: normal;
   font-family: "Noto Sans KR", sans-serif;
   margin-bottom: 30px;
+}
+.ceo-section .ceo-inner .ceo-inner-left h6 {
+  color: #A5250A;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 15px;
 }
 .ceo-section .ceo-inner .ceo-inner-left h2 {
   color: #2A263C;

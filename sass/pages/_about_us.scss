@@ -123,7 +123,7 @@
                     h6 {
                         color: #17CD25;
                         background: rgba(23, 205, 37, 0.1);
-                        max-width: 212px;
+                        max-width: 265px;
                         font-family: $kfont;
                         font-size: 18px;
                         font-weight: 500;
@@ -140,49 +140,77 @@
 
                     h2 {
                         color: #FFFFFF;
-                        font-size: 48px;
+                        font-size: 44px;
                         font-weight: bold;
                         line-height: 164.8%;
                         font-family: $kfont;
                         margin-bottom: 35px;
 
                         @media(max-width: 1280px) {
-                            font-size: 45px;
+                            font-size: 41px;
                             margin-bottom: 25px;
                         }
 
-                        @media(max-width: 1152px) {
+                        @media(max-width: 1183px) {
                             font-size: 40px;
                             margin-bottom: 15px;
                         }
-
-                        @media(max-width: 1024px) {
+                        @media(max-width: 1154px) {
+                            font-size: 39px;
+                            margin-bottom: 15px;
+                        }
+                        @media(max-width: 1152px) {
+                            font-size: 37px;
+                            margin-bottom: 15px;
+                        }
+                        @media(max-width: 1068px) {
                             font-size: 36px;
+                            margin-bottom: 15px;
+                        }
+                        @media(max-width: 1068px) {
+                            font-size: 36px;
+                            margin-bottom: 15px;
+                        }
+
+                        @media(max-width: 1039px) {
+                            font-size: 35px;
+                            margin-bottom: 15px;
+                        }
+                        @media(max-width: 1024px) {
+                            font-size: 32px;
+                            margin-bottom: 15px;
+                        }
+                        @media(max-width: 923px) {
+                            font-size: 30px;
+                            margin-bottom: 15px;
+                        }
+                        @media(max-width: 866px) {
+                            font-size: 28px;
                             margin-bottom: 15px;
                         }
 
                         @media(max-width: 800px) {
                             line-height: 145%;
+                            font-size: 35px;
                         }
-
-                        @media(max-width: 425px) {
-                            font-size: 34px;
-                        }
-
-                        @media(max-width: 414px) {
+                        @media(max-width: 450px) {
                             font-size: 32px;
                         }
 
-                        @media(max-width: 380px) {
-                            font-size: 30px;
-                        }
-
-                        @media(max-width: 356px) {
+                        @media(max-width: 414px) {
                             font-size: 28px;
                         }
 
-                        @media(max-width: 332px) {
+                        @media(max-width: 365px) {
                             font-size: 26px;
+                        }
+
+                        @media(max-width: 356px) {
+                            font-size: 25px;
+                        }
+
+                        @media(max-width: 332px) {
+                            font-size: 24px;
                         }
 
                         span {
@@ -325,6 +353,16 @@
                 font-family: $kfont;
                 margin-bottom: 30px;
             }
+
+            h6 {
+                color: #A5250A;
+                font-family: $kfont;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 32px;
+                margin-bottom: 15px;
+            }
+
 
             h2 {
                 color: #2A263C;
