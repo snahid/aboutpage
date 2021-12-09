@@ -240,9 +240,6 @@
     font-size: 24px;
   }
 }
-.about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left h2 span {
-  color: red;
-}
 .about-main-wrapper .about-us-wrapper .about-us-inner .about-top-wrapper .about-top-left p {
   color: #838291;
   font-size: 24px;
@@ -399,15 +396,15 @@
 .ceo-section .ceo-inner .ceo-inner-left h6 {
   color: #A5250A;
   font-family: "Noto Sans KR", sans-serif;
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 500;
   line-height: 32px;
   margin-bottom: 15px;
 }
 .ceo-section .ceo-inner .ceo-inner-left h2 {
   color: #2A263C;
-  font-size: 48px;
-  line-height: 70px;
+  font-size: 49px;
+  line-height: 71px;
   font-weight: bold;
   font-style: normal;
   font-family: "Noto Sans KR", sans-serif;
@@ -579,8 +576,8 @@
 }
 .corporate-section .corporate-inner .corporate-right h2 {
   color: #FFFFFF;
-  font-size: 64px;
-  line-height: 80px;
+  font-size: 49px;
+  line-height: 71px;
   font-family: "Noto Sans KR", sans-serif;
   font-weight: bold;
   margin-bottom: 30px;
@@ -746,7 +743,7 @@
 .keepin-touch-wrapper .keepin-touch-inner .keepin-touch-left h6 {
   color: #575467;
   line-height: 32px;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 500;
   font-family: "Noto Sans KR", sans-serif;
   margin-bottom: 15px;
@@ -777,7 +774,7 @@
 }
 .keepin-touch-wrapper .keepin-touch-inner .keepin-touch-left h2 {
   color: #2A263C;
-  font-size: 48px;
+  font-size: 49px;
   line-height: 70px;
   font-weight: bold;
   font-family: "Noto Sans KR", sans-serif;
